@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#form input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#form button{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.error{
+    color:crimson;
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
